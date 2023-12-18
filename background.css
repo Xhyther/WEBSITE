@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+
+body{
+  background-color: white;
+  position: relative;
+
+}
+
+p{
+  color: #000000;
+}
+
+.block{
+  text-align: center;
+  border-style: hidden;
+  flex: 1; /* Make the boxes flexible to take up available space */
+  margin: 10px; /* Add margin for spacing between the boxes */
+  padding: 20px; /* Add padding to create inner space */
+  margin: 10px; /* Add margin for spacing between the boxes */
+  border-width: 10px;
+  border-radius: 20px;
+  
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ROWSSSS */
+.row1{
+  display: flex;
+}
+
+
+.row2{
+  display: flex;
+}
+
+.row3{
+  display: flex;
+}
+
+  
+/** INDIVIDUAL BLOCKS */
+  #b1 {
+  background-color: #01796F;
+  border-color: #01796F;
+  margin: 10px 10px 20px 10px; /* Adjust margin as needed */
+  flex: 2; /* Make the box flexible to take up available space */
+  width: 45px;
+  height: 45px;
+}
+
+  #b1 h2 {
+    font-family: 'Familjen Grotesk', sans-serif;
+    color: white;
+    margin-top: 0%;
+    font-size: 35px;
+  }
+
+  #b2 {
+  background-color: #20B2AA;
+  border-color: #20B2AA;
+  margin: 30px 10px 20px 10px; /* Adjust margin as needed */
+  flex: 4;
+  height: 3px;
+}
+
+
+  #b3 {
+  background-color: #225566;
+  border-color: #225566;
+  flex: 1.5;
+  height: 300px;
+  }
+
+  #b3 h1 {
+    font-family: 'Faustina', serif;
+    text-align: center;
+    color: #99FFFF;
+    font-size: 45px;
+    margin-top: 0%;
+  }
+
+  #b3 p {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: justify;
+    color: #99FFFF;
+    font-size: 17px;
+  }
+
+  #b4 {
+    background-color: #14A1A1; /* Red color */
+    border-color: #14A1A1;
+    height: 400px;
+    margin-bottom: 0%;
+  
+  }
+
+  #b4 h1{
+    font-family: 'Faustina', serif;
+    color: #E0FFFF;
+    font-size: 55px;
+    margin-top: 0%;
+  }
+
+  #b5 {
+    background-color: #040122; /* Red color */
+    border-color: #040122;
+    flex: .5;
+    height: 350px;
+    transform: translateY(-25%);
+  }
+
+  #b6 {
+    background-color: #A7D7D7; /* Red color */
+    border-color: #A7D7D7;
+    flex: 0.5;
+    height: 350px;
+    transform: translateY(-25%);
+  }
+
+  #b6 p {
+    font-family: 'Faustina', serif;
+    color: #225566;
+    text-align: justify;
+    font-size: 23px ;
+  }
+
+  #b6 h1 {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: left;
+    color: #225566;
+    font-size: 40px ;
+    margin-top: 0%;
+  }
+
+  #b7 {
+    background-color: #14A1A1; /* Red color */
+    border-color: #14A1A1;
+    flex: 0.73;
+    margin-top: 0px;
+    margin-left: 14px;
+    transform: translateY(-10%);
+    height: 300px;
+    width: 30px;
+    
+  }

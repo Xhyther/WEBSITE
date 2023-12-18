@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+
+.logo{
+  cursor: pointer;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 120%; 
+  margin-right:13%;
+  margin-top: 2%;
+}
+
+.navbar{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding: 0px 10px;
+  text-align: center;
+  justify-content: flex-end;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 126);
+  top: 140px;
+  margin-top: -9rem;
+  margin-left: -1.7rem;
+}
+
+.nav-links{
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.nav-links li{
+  margin: 0 20px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  padding: 8px 15px;
+  background: rgb(0, 110, 114);
+  border-radius: 30px;
+  color:rgb(255, 255, 255);
+  border: #00000058;
+  border-style:solid;
+  border-width: 2px;
+  margin-top: 20px; /* Adjust this value to move the buttons lower */
+  margin-right: 20px;
+}
+
+.nav-links li:first-child {
+  margin-right: 10px; /* Adjust this value to move "Home" link closer to the left */
+}
+
+/* Adjust margin for About Us link */
+.nav-links li:last-child {
+  margin-left: 10px; 
+}
+
+.nav-links li:hover{
+  padding: 8px 15px;
+  background: #000000;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+li, a {
+  font-family: 'Familjen Grotesk', sans-serif;;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+  border-style: hidden;
+  flex: 1;
+}
+
+#top {
+
+  position: absolute;
+  width: 80rem;
+  height: 20rem;
+  top: 7rem;
+  background-color: #A7D7D7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#top h1{
+  font-family: 'Faustina', serif;
+  color: #384B4B;
+  font-size: 3.2rem;
+  margin: 0;
+  text-align: center;
+  
+}
+
+#top p{
+  color: #384B4B;
+  font-family: 'Faustina', serif;
+  font-size: 1.7rem;
+  margin: 0;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+
+#profile {
+  /* Frame 14 */
+
+position: absolute;
+width: 80rem;
+height: 40rem;
+top: 28rem;
+margin-bottom: 10rem;
+background: #225566;
+border-radius: 20px;
+
+}
+
+.box{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+}
+.circle {
+  width: 16rem;
+  height: 16rem;
+  background-color: #f3faff; /* Set the background color as needed */
+  border-radius: 50%;
+}
+
+.pics{
+  margin: -4rem;
+}
+
+
+.pics:nth-child(odd){
+  margin-top: 5rem;
+}
+
+.pics:nth-child(even){
+  margin-top: 20rem;
+}
+

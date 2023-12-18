@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+
+.logo{
+  cursor: pointer;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 120%; 
+  margin-right:17%;
+  margin-top: 2%;
+}
+
+.navbar{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding: 0px 10px;
+  text-align: center;
+  justify-content: flex-end;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 126);
+  margin-top: -5%;
+  margin-left: -1%;
+}
+
+.nav-links{
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 0%;
+  margin-right: 20px;
+}
+
+.nav-links li{
+  margin: 0 20px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  padding: 8px 15px;
+  background: rgb(0, 110, 114);
+  border-radius: 30px;
+  color:rgb(255, 255, 255);
+  border: #00000058;
+  border-style:solid;
+  border-width: 2px;
+  margin: 10px 10px;
+}
+
+.nav-links li:hover{
+  padding: 8px 15px;
+  background: #000000;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+li, a {
+  font-family: 'Familjen Grotesk', sans-serif;;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+} 
+/********************************************************************************************************/
+body {
+  background-color: #F0F8FF;
+  position: relative;
+  
+}
+
+p {
+  color: #000000;
+}
+
+
+.blocked {
+  text-align: center;
+  border-style: hidden;
+  flex: 1;
+  margin: 1%;
+  padding: 2%;
+  border-width: 1vw;
+  border-radius: 2vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blocked:hover {
+  transform: scale(1.1) translateY(-10%);
+}
+
+.blocked img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out; 
+}
+
+.blocked:hover img {
+  opacity: 0.8;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+/* ROWSSSS */
+.row1, .row2, .row3 {
+  display: flex;
+}
+
+/** INDIVIDUAL BLOCKS */
+#p1 {
+  background-color: #01796F;
+  border-color: #01796F;
+  margin: 1% 1% 1% 1%; /* Adjust margin as needed */
+  flex: 2;
+  width: 2vw; /* Use viewport width for width */
+  height: 6vh; /* Use viewport width for height */
+  margin-left: 2%;
+}
+
+#p1 h2 {
+  font-family: 'Familjen Grotesk', sans-serif;
+  color: white;
+  margin-top: 0;
+  font-size: 2.5vw; /* Use viewport width for font size */
+  margin-top: -2%;
+}
+
+#p2 {
+  background-color: #20B2AA;
+  border-color: #20B2AA;
+  margin: 2.5% 1% 1% 1%; /* Adjust margin as needed */
+  flex: 4;
+  height: 0.000005vh; /* Use viewport width for height */
+  margin-right: 2%;
+}
+
+
+
+#p3 {
+  background-color: #225566;
+  border-color: #225566;
+  flex: 1.5;
+  height: 50vh; /* Use viewport height for height */
+  margin-left: 2%;
+  margin-bottom: 3%;
+
+}
+
+#p3 h1 {
+  font-family: 'Faustina', serif;
+  text-align: center;
+  color: #99FFFF;
+  font-size: 3.5vw; /* Use viewport width for font size */
+  margin-top: 0;
+}
+
+#p3 p {
+  font-family: 'Maven Pro', sans-serif;
+  text-align: justify;
+  color: #99FFFF;
+  font-size: 1.3vw; /* Use viewport width for font size */
+}
+
+#p4 {
+  background-color: #14A1A1;
+  border-color: #14A1A1;
+  height: 50vh; /* Use viewport height for height */
+  margin-bottom: 0;
+  margin-right: 2%;
+}
+
+#p4 h1 {
+  font-family: 'Faustina', serif;
+  color: #E0FFFF;
+  font-size: 2.5vw; /* Use viewport width for font size */
+  margin-top: 0;
+  margin-bottom: 0%;
+}
+
+#p4 img
+{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#p5 {
+  background-color: #040122;
+  border-color: #040122;
+  height: 50vh; /* Use viewport height for height */
+  transform: translateY(0%);
+  margin-left: 2%;
+}
+
+#p5 img {
+        width: 100%;
+        height: auto;
+        display: block; /* To remove extra space below inline images */
+}
+
+#p6 {
+    background-color: #A7D7D7;
+    border-color: #A7D7D7;
+    height: 50vh; /* Use viewport height for height */
+    width: 20vw; 
+    transform: translateY(0%);
+    margin-right: 2%;
+}
+
+
+
+#p6 p {
+  font-family: 'Faustina', serif;
+  color: #225566;
+  text-align: justify;
+  font-size: 1.7vw; /* Use viewport width for font size */
+}
+
+#p6 h1 {
+  font-family: 'Maven Pro', sans-serif;
+  text-align: left;
+  color: #225566;
+  font-size: 2.7vw; /* Use viewport width for font size */
+  margin-top: 0;
+}
+
+#p7 {
+  background-color: #14A1A1;
+  border-color: #14A1A1;
+  flex: 1.56;
+  margin-top: 0.1vh; /* Use viewport height for margin */
+  margin-left: 1.4vw; /* Use viewport width for margin */
+  transform: translateY(-10%);
+  height: 60vh; /* Use viewport height for height */
+  width: 50vh; /* Use viewport height for width */
+  margin-right: 2%;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#p7 p {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: justify;
+    font-size: 2vw;
+    color: #99FFFF ;
+}
+
+#p5, #p6 {
+  transition: transform 0.3s ease-in-out;
+}
+
+#p5:hover, #p6:hover {
+  transform: translateY(-10%);
+}
+
+#p7 {
+  transition: transform 0.3s ease-in-out;
+}
+
+#p7:hover {
+  transform: scale(1.1);
+}
+
