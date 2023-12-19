@@ -2,7 +2,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap'); 
 
+.logo{
+  cursor: pointer;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 120%; 
+  margin-right:13%;
+  margin-top: 2%;
+}
 
+.navbar{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding: 0px 10px;
+  text-align: center;
+  justify-content: flex-end;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 126);
+  top: 140px;
+  margin-top: -13.5rem;
+  margin-left: -0.69rem;
+}
+
+.nav-links{
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.nav-links li{
+  margin: 0 20px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  padding: 8px 15px;
+  background: rgb(0, 110, 114);
+  border-radius: 30px;
+  color:rgb(255, 255, 255);
+  border: #00000058;
+  border-style:solid;
+  border-width: 2px;
+  margin-top: 20px; /* Adjust this value to move the buttons lower */
+  margin-right: 20px;
+}
+
+.nav-links li:first-child {
+  margin-right: 10px; /* Adjust this value to move "Home" link closer to the left */
+}
+
+/* Adjust margin for About Us link */
+.nav-links li:last-child {
+  margin-left: 10px; 
+}
+
+.nav-links li:hover{
+  padding: 8px 15px;
+  background: #000000;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+li, a {
+  font-family: 'Familjen Grotesk', sans-serif;;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+} 
 body {
     background-color: #F0F8FF;
     position: relative;
