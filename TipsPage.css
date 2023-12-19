@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap'); 
+
+
+body {
+    background-color: #F0F8FF;
+    position: relative;
+  }
+  
+  p {
+    color: rgb(255, 255, 255)
+  }
+  
+  .block {
+    text-align: center;
+    border-style: hidden;
+    flex: 1;
+    margin: 1%; /* Use percentage for margin */
+    padding: 2%; /* Use percentage for padding */
+    border-width: 1vw; /* Use viewport width for border width */
+    border-radius: 2vw; /* Use viewport width for border radius */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ROWSSSS */
+  .row1, .row2, .row3 {
+    display: flex;
+  }
+
+  #b1 {
+  background-color: #20B2AA;
+  border-color: #20B2AA;
+  margin: 2.5% 1% 1% 1%; /* Adjust margin as needed */
+  flex: 4;
+  height: 0.000005vh; /* Use viewport width for height */
+  margin-right: 0%;
+  }
+
+  #b2 {
+  background-color: #01796F;
+  border-color: #01796F;
+  margin: 1% 1% 1% 1%; /* Adjust margin as needed */
+  flex: 2;
+  width: 2vw; /* Use viewport width for width */
+  height: 6vh; /* Use viewport width for height */
+  margin-left: 2%;
+  }
+
+  #b2 h1{
+  font-family: 'Familjen Grotesk', sans-serif;
+  color: white;
+  font-size: 2.5vw; /* Use viewport width for font size */
+  margin-top: -1%;
+  margin-right: -2px;
+}
+
+#b3 {
+    background-color: #225566;
+    border-color: #225566;
+    flex: 1.5;
+    height: 20vh; /* Use viewport height for height */
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+#b3 h2{
+    color: #ffffff;
+    margin-top: 0%;
+    text-align: justify;
+    font-size: 2.5vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#b3 p{
+    font-family: 'Familjen Grotesk', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.3vw;
+    margin-top: 2%;
+}
+
+#b4 {
+    background-color:#20B2AA;
+    border-color: #20B2AA;
+    flex: 1.5;
+    height: 20vh; /* Use viewport height for height */
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+#b4 h3{
+    color: #ffffff;
+    margin-top: 1%;
+    text-align: justify;
+    font-size: 2.5vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#b4 p{
+    font-family: 'Familjen Grotesk', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.3vw;
+    margin-top: 3%;
+}
+
+#b5 {
+    background-color: #81a9a9;
+    border-color: #A7D7D7;
+    flex: 1.5;
+    height: 20vh; /* Use viewport height for height */
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+#b5 h4{
+    color: #ffffff;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#b5 p{
+    font-family: 'Familjen Grotesk', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3vw;
+    margin-top: 1%;
+}
+
+#b6 {
+  background-color: #225566;
+  border-color: #225566;
+  flex: 1.5;
+  height: 20vh; /* Use viewport height for height */
+  margin-bottom: 0%;
+}
+
+#b6 h5{
+    color: #ffffff;
+    margin-top: 0%;
+    text-align: justify;
+    font-size: 2.5vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#b6 p{
+  font-family: 'Familjen Grotesk', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.3vw;
+    margin-top: -1%;
+}
+
+#b7 {
+  background-color: #20B2AA;
+  border-color: #20B2AA;
+  flex: 1.5;
+  height: 20vh; /* Use viewport height for height */
+  margin-bottom: 0%;
+}
+
+#b7 h6{
+  color: #ffffff;
+  margin-top: 0%;
+  text-align: justify;
+  font-size: 2.5vh;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#b7 p{
+font-family: 'Familjen Grotesk', sans-serif;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1.3vw;
+  margin-top: -1%;
+}
+
+.block:hover{
+  background: whitesmoke;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.485);
+  cursor: pointer;
+}
+
+.block h2 {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #fefefe 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h2:before{
+  content: '';
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h2:hover {
+ background-position: 0;
+}
+
+.block h2:hover::before{
+  width: 100%;
+}
+
+.block h3 {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #fefefe 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h3:before{
+  content: '';
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h3:hover {
+ background-position: 0;
+}
+
+.block h3:hover::before{
+  width: 100%;
+}
+
+.block h6 {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #fefefe 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h6:before{
+  content: '';
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h6:hover {
+ background-position: 0;
+}
+
+.block h6:hover::before{
+  width: 100%;
+}
+
+.block h5 {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #fefefe 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h5:before{
+  content: '';
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h5:hover {
+ background-position: 0;
+}
+
+.block h5:hover::before{
+  width: 100%;
+}
+
+.block h4 {
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000 50%,
+    #ffffff 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h4:before{
+  content: '';
+  background: #000000;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.block h4:hover {
+ background-position: 0;
+}
+
+.block h4:hover::before{
+  width: 100%;
+}
+
+.block h1,
+.block h2,
+.block h3,
+.block h4,
+.block h5,
+.block h6,
+.block p {
+    color: white;
+}
