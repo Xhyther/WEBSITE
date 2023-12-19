@@ -157,10 +157,24 @@ border-radius: 20px;
 
 
 .pics:nth-child(odd){
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .pics:nth-child(even){
   margin-top: 20rem;
+}
+.pics:nth-child(2) {
+  margin-top: 18rem;
+}
+
+.pics:nth-child(4) {
+  margin-top: 20rem;
+}
+.pics:nth-child(1){
+  margin-left: 1rem;
+}
+
+.pics:nth-child(5){
+  margin-right: 1rem;
 }
 
