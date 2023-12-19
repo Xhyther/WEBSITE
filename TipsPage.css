@@ -72,11 +72,12 @@ li, a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 } 
-
+.header-content {
+  margin-top: 11vh;
+}
 body {
     background-color: #F0F8FF;
     position: relative;
-    margin-top: 11vh;
   }
   
   p {
