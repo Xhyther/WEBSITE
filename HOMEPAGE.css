@@ -181,6 +181,9 @@
         display: block; /* To remove extra space below inline images */
         
   }
+#b7 a{
+    font-size: inherit;
+}
 .header-content {
     position: sticky;
     background-color: #008085;
