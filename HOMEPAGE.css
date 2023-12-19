@@ -152,7 +152,9 @@
         display: block; /* To remove extra space below inline images */
         
   }
-
+#b6 a {
+    font-size: inherit;
+  }
 #b7 {
     background-color: rgb(34, 85, 102);
     height: 50vh; /* Use viewport height for height */
